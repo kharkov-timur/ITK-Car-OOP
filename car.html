@@ -11,7 +11,14 @@
 <body>
 
   <div class="car">
-    <button id="start-csr">Start</button>
+    <div class="info-panel">
+      <label for="">status:</label> <span id="status">off</span>
+    </div>
+    <div class="controls">
+      <input type="button" value="Start" id="start-car">
+      <hr>
+      <label for="" class="gear-box">Gear box</label> <span id="gear-box-value">N</span>
+    </div>
   </div>
 
   <script src="js/car.js"></script>

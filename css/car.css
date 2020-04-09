@@ -1,3 +1,7 @@
 .car .hide {
   display: none;
 }
+
+.car .info-panel label {
+  font-weight: bold;
+}

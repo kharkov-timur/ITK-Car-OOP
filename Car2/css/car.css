@@ -1,0 +1,17 @@
+.car {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.car * {
+  padding: 5px;
+}
+
+.car .hide {
+  display: none;
+}
+
+.car .info-panel label {
+  font-weight: bold;
+}
